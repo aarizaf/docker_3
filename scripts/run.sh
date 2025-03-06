@@ -2,11 +2,7 @@
 
 echo "Ingresa la ruta y nombre del archivo fuente:"
 read SOURCE_FILE
-
-# Extrae la extensión
 EXTENSION="${SOURCE_FILE##*.}"
-
-# Obtiene tiempo inicial (milisegundos)
 START_TIME=$(date +%s%3N)
 
 case "$EXTENSION" in
@@ -33,5 +29,4 @@ esac
 
 END_TIME=$(date +%s%3N)
 ELAPSED=$((END_TIME - START_TIME))
-
 echo "Tiempo de ejecución: ${ELAPSED} ms"
