@@ -1,4 +1,4 @@
-#!/bin/bash/hola
+#!/bin/bash
 
 echo "Ingresa la ruta y nombre del archivo fuente:"
 read SOURCE_FILE
