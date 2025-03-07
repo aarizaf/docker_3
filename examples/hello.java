@@ -1,5 +1,5 @@
 // FibonacciSum.java
-public class Hello {
+public class hello {
     public static long fibonacciSum(int n) {
         long a = 0, b = 1, total = 0;
         for (int i = 0; i < n; i++) {
