@@ -8,4 +8,4 @@ def fibonacci_sum(n)
 end
 
 puts fibonacci_sum(100)
-puts "calculo realizado desde rb"
+

@@ -15,6 +15,6 @@ long long fibonacciSum(int n) {
 
 int main() {
     cout << fibonacciSum(100) << endl;
-    std::cout << "Calculo realizado desde cpp" << std::endl;
+  
     return 0;
 }

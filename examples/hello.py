@@ -7,4 +7,4 @@ def fibonacci_sum(n):
     return total
 
 print(fibonacci_sum(100))
-print("Calculo realizado desde py")
+
