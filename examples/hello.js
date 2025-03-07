@@ -8,3 +8,4 @@ function fibonacciSum(n) {
 }
 
 console.log(fibonacciSum(100));
+console.log("Calculo realizado desde js");
