@@ -1,3 +1,4 @@
+package examples;
 // FibonacciSum.java
 public class hello {
     public static long fibonacciSum(int n) {
